@@ -6,12 +6,15 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-}
+    font-family: "Sedan", serif;
+    font-weight: 400;
+}  
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 800px 400px;
     grid-template-rows: 1fr;
+    justify-content: center;
 }
 
 .tan {
@@ -39,11 +42,22 @@ nav ul li {
 }
 
 nav a {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+a:link {
+    color: #113946;
+    cursor: pointer;
 }
 
 .card{
@@ -55,6 +69,10 @@ nav a:hover {
     padding: 30px;
     margin: 10px;
     border: 5px solid #EAD7BB;
+}
+
+p {
+    font-size: 18px;
 }
 
 footer {
