@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.tan {
+    color: #EAD7BB;
+}
+
+.blue {
+    background-color: #113946;
+}
+
+header {
+    grid-column: 1/3;
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #BCA37F;
+    padding: 30px;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #EAD7BB;
+}
+
+footer {
+    grid-row: 4;
+    grid-column: 1/3;
+}
