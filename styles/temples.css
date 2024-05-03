@@ -1,3 +1,37 @@
 body {
     height: 100vh;
+    display: grid;
+    text-align: center;
+}
+
+header {
+    background-color: #FAF8F1;
+    color: #C58940;
+    padding: 20px;
+    height: 120px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #E5BA73;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+figcaption {
+    color: #C58940;
+    font-style: bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #FAF8F1;
+    color: #C58940;
+    font-style: bold;
 }
