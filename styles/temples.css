@@ -1,12 +1,10 @@
 body {
-    height: 100vh;
-    display: grid;
     text-align: center;
 }
 
 header {
-    background-color: #FFF3E2;
-    color: #E74646;
+    background-color: #FCF5ED;
+    color: #CE5A67;
     padding: 20px;
     height: 120px;
     font-weight: bolder;
@@ -36,13 +34,13 @@ img {
 }
 
 figcaption {
-    color: #E74646;
+    color: #CE5A67;
     font-size: 20px;
     font-weight: bolder;
 }
 
 footer {
-    background-color: #FFF3E2;
-    color: #E74646;
+    background-color: #FCF5ED;
+    color: #CE5A67;
     font-weight: bolder;
 }
