@@ -24,6 +24,17 @@ nav a {
     text-decoration: none;
 }
 
+figure {
+    border: 1px solid;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
 figcaption {
     color: #C58940;
     font-size: 20px;
