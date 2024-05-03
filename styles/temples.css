@@ -8,25 +8,54 @@ header {
     background-color: #FCF5ED;
     color: #CE5A67;
     padding: 20px;
-    height: 145px;
+    height: 135px;
     font-weight: bolder;
     font-size: 20px;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #FFE5CA;
-    padding: 20px;
+#menu {
+    display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #FFE5CA;
+	color: #000;
 }
 
-nav a {
-    text-decoration: none;
-    color: #CE5A67;
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+    background-color: #FFE5CA;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #CE5A67;
+	font-weight: bolder;
+	transition: 0.5s;
     font-style: italic;
     font-size: 20px;
-    font-weight: bolder;
+    margin-right: 40px;
+}
+
+.show li {
+	display: block;
 }
 
 nav a:hover {
@@ -34,7 +63,7 @@ nav a:hover {
 }
 
 main {
-    padding-top: 15px;
+    padding-top: 230px;
     padding-bottom: 15px;
 }
 
