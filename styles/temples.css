@@ -22,6 +22,19 @@ nav ul{
 
 nav a {
     text-decoration: none;
+    color: #CE5A67;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 h2 {
