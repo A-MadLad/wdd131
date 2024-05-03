@@ -9,6 +9,7 @@ header {
     color: #C58940;
     padding: 20px;
     height: 120px;
+    font-weight: bolder;
     
 }
 
@@ -38,11 +39,11 @@ img {
 figcaption {
     color: #C58940;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 footer {
     background-color: #FAF8F1;
     color: #C58940;
-    font-weight: bold;
+    font-weight: bolder;
 }
