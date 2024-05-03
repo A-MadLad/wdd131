@@ -5,12 +5,10 @@ body {
 }
 
 header {
-    background-color: #FAF8F1;
     color: #C58940;
     padding: 20px;
     height: 120px;
     font-weight: bolder;
-    
 }
 
 nav ul{
@@ -43,7 +41,6 @@ figcaption {
 }
 
 footer {
-    background-color: #FAF8F1;
     color: #C58940;
     font-weight: bolder;
 }
