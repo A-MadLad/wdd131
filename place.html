@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okinawa</title>
+    <meta name="description" content="Information about Okinawa, Japan.">
+    <meta name="author" content="Adam Judd">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large-view.css">
+    <script defer src="scripts/place.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Okinawa, Japan</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(max-width: 800px)" srcset="images/okinawa3.webp" alt="A picture of a beautiful beach on Okinawa, Japan.">
+            <source media="(min-width: 800px)" srcset="images/okinawa.webp" alt="A picture of a beautiful beach on Okinawa, Japan.">
+            <img src="images/okinawa3.webp" alt = "A picture of a beautiful beach on Okinawa, Japan.">
+        </picture>
+
+        <div class="card data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: </li>
+                <li>Population: </li>
+                <li>Capital: </li>
+                <li>Languages: </li>
+                <li>Currency: </li>
+                <li>Time Zone: </li>
+                <li>Calling Code: </li>
+                <li>Internet TLD: </li>
+            </ul>
+        </div>
+
+        <div class="card weather">
+            <h2><span id="wEmote">⛅</span>Weather</h2>
+            <img id="weatherIcon" src="images/weathericon.svg" alt="A weather icon.">
+            <ul>
+                <li>Temperature: </li>
+                <li>Conditions: </li>
+                <li>Wind: </li>
+                <li>Wind Chill: </li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Adam Judd | New Mexico</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
