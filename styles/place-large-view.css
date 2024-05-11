@@ -41,5 +41,9 @@
         height: 300px;
         width: 300px;
     }
+
+    footer {
+        margin-top: -107px;
+    }
 }
 
