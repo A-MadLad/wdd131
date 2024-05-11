@@ -4,6 +4,7 @@ body {
     background-color: #EEEEEE;
     display: grid;
     height: 100vh;
+    font-family: "Manrope", sans-serif;
 }
 
 img {

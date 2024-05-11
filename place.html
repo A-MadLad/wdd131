@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Okinawa, Japan</title>
     <meta name="description" content="Information about Okinawa, Japan.">
@@ -9,47 +9,54 @@
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large-view.css">
     <script defer src="scripts/place.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-        <h1>Okinawa, Japan</h1>
+      <h1>Okinawa, Japan</h1>
     </header>
     <main>
-        <picture>
-            <source media="(max-width: 1320px)" srcset="images/okinawa3.webp">
-            <source media="(min-width: 1320px)" srcset="images/okinawa.webp">
-            <img src="images/okinawa3.webp" alt = "A picture of a beautiful beach on Okinawa, Japan.">
-        </picture>
+      <picture>
+        <source media="(max-width: 1000px)" srcset="images/okinawa3.webp">
+        <source media="(min-width: 1000px)" srcset="images/okinawa.webp">
+        <img
+          src="images/okinawa3.webp"
+          alt="A picture of a beautiful beach on Okinawa, Japan.">
+      </picture>
 
-        <div class="card data">
-            <h2>Data</h2>
-            <ul>
-                <li>Area: 228,215</li>
-                <li>Population: 1,468,000</li>
-                <li>Capital: Naha-shi</li>
-                <li>Languages: Japanese</li>
-                <li>Currency: Yen</li>
-                <li>Time Zone: JST</li>
-                <li>Calling Code: +81</li>
-                <li>Internet TLD: .mg</li>
-            </ul>
-        </div>
+      <div class="card data">
+        <h2>Data</h2>
+        <ul>
+          <li>Area: 228,215</li>
+          <li>Population: 1,468,000</li>
+          <li>Capital: Naha-shi</li>
+          <li>Languages: Japanese</li>
+          <li>Currency: Yen</li>
+          <li>Time Zone: JST</li>
+          <li>Calling Code: +81</li>
+          <li>Internet TLD: .mg</li>
+        </ul>
+      </div>
 
-        <div class="card weather">
-            <h2>Weather <span id="wEmote">⛅</span></h2>
-            <img id="weatherIcon" src="images/weathericon.svg" alt="A weather icon.">
-            <ul>
-                <li>Temperature: 75°F</li>
-                <li>Conditions: Clear</li>
-                <li>Wind: 9 mph</li>
-                <li>Wind Chill: </li>
-            </ul>
-        </div>
-
+      <div class="card weather">
+        <h2>Weather <span id="wEmote">⛅</span></h2>
+        <img
+          id="weatherIcon"
+          src="images/weathericon.svg"
+          alt="A weather icon." />
+        <ul>
+          <li>Temperature: 75°F</li>
+          <li>Conditions: Clear</li>
+          <li>Wind: 9 mph</li>
+          <li>Wind Chill:</li>
+        </ul>
+      </div>
     </main>
     <footer>
-        <p>&copy;<span id="currentyear"></span> | Adam Judd | New Mexico</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+      <p>&copy;<span id="currentyear"></span> | Adam Judd | New Mexico</p>
+      <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
   </body>
 </html>
