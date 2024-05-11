@@ -7,3 +7,8 @@ window.addEventListener('load', () => {
     const modified = document.getElementById('lastModified');
     modified.innerHTML = document.lastModified;
 });
+
+function calculateWindChill() {
+    
+
+}
