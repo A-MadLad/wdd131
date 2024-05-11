@@ -2,6 +2,8 @@ body {
     text-align: center;
     margin: 0;
     background-color: #EEEEEE;
+    display: grid;
+    height: 100vh;
 }
 
 img {
@@ -36,5 +38,4 @@ ul {
 footer {
     background-color: #CF0A0A;
     color: #EEEEEE;
-    padding: 10px;
 }

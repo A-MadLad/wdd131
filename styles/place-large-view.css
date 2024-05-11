@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -38,8 +38,8 @@
 
     .card {
         text-align: left;
-        width: 300px;
         height: 300px;
+        width: 300px;
     }
 }
 
