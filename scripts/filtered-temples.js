@@ -73,7 +73,20 @@ const temples = [
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg",
   },
-  // Add more temple objects here...
+  {
+    templeName: "Albuqerque New Mexico",
+    location: "Albuqerque, New Mexico",
+    dedicated: "2000, March, 5",
+    area: 34245,
+    imageUrl: "images/t1.jpeg",
+  },
+  {
+    templeName: "Bern Switzerland",
+    location: "Bern, Switzerland",
+    dedicated: "1955, September, 11",
+    area: 35546,
+    imageUrl: "images/t4.jpeg",
+  },
 ];
 
 templeCard(temples);

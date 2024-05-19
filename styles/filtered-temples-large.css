@@ -1,9 +1,8 @@
-@media (min-width: 60em) {
+@media (min-width: 70em) {
     
     header {
         height: 128px;
     }
-    
     
     .navigation {
         display: flex;
@@ -25,5 +24,10 @@
 
     main {
         padding-top: 15px;
+    }
+
+    .templeGrid {
+        grid-template-columns: repeat(3, 500px);
+        justify-content: center;
     }
 }
