@@ -90,7 +90,7 @@ img {
 
 h3 {
     color: #CE5A67;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -98,11 +98,13 @@ h3 {
     font-weight: bolder;
     color: #CE5A67;
     text-decoration: underline;
+    font-size: 22px;
 }
 
 p {
     color: #CE5A67;
     font-weight: bold;
+    font-size: 20px;
 }
 
 footer {
