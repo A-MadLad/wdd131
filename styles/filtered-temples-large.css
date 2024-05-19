@@ -1,0 +1,29 @@
+@media (min-width: 60em) {
+    
+    header {
+        height: 128px;
+    }
+    
+    
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    main {
+        padding-top: 15px;
+    }
+}

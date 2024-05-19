@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "Sedan SC", serif;
+}
+
+header {
+    background-color: #FCF5ED;
+    color: #CE5A67;
+    padding: 20px;
+    height: 135px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#menu {
+    display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #FFE5CA;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+    background-color: #FFE5CA;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #CE5A67;
+	font-weight: bolder;
+	transition: 0.5s;
+    font-style: italic;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.show li {
+	display: block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 230px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color:#CE5A67;
+    font-size: 28px;
+}
+
+.templeGrid {
+    display: grid;
+}
+
+section {
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+h3 {
+    color: #CE5A67;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.label {
+    font-weight: bolder;
+    color: #CE5A67;
+    text-decoration: underline;
+}
+
+p {
+    color: #CE5A67;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #FCF5ED;
+    color: #CE5A67;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
