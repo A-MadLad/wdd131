@@ -1,12 +1,19 @@
 body {
+    display: grid;
+    height: 100vh;
+    text-align: center;
     font-family: "Roboto Slab", serif;
+    margin: 0;
 }
 
 header {
-    text-align: center;
     background-color: #9A031E;
     color: #FFC100;
     padding: 30px;
+}
+
+section {
+    border-bottom: 2px solid #9A031E;
 }
 
 h2 {
@@ -17,7 +24,7 @@ p {
     font-size: 18px;
 }
 
-img {
+#logo {
     max-width: 100px;
 }
 
@@ -31,4 +38,9 @@ h3 {
 #yellowbg {
     background-color: #FFC100;
     color: #9A031E;
+}
+
+footer {
+    background-color: #9A031E;
+    color: #FFC100;
 }

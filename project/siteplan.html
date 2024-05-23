@@ -7,6 +7,7 @@
     <meta name="description" content="A site plan for my final project.">
     <meta name="author" content="Adam Judd">
     <link rel="stylesheet" href="styles/siteplan.css">
+    <script defer src="scripts/siteplan.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
         <section>
             <h2>Site Name:</h2>
             <p>Welcome to Alamogordo!</p>
-            <img src="images/nm-flag.jpg" alt="New Mexico Flag">
+            <img src="images/nm-flag.jpg" alt="New Mexico Flag" id="logo">
             <p>Alamogordo-nm.org</p>
         </section>
 
@@ -31,10 +32,8 @@
 
         <section>
             <h2>Scenarios:</h2>
-            <ul>
-                <li>Where is a fun place I can go with my family?</li>
-                <li>Where is the best local place to get a bite to eat?</li>
-            </ul>
+            <p>Where is a fun place I can go with my family?</p>
+            <p>Where is the best local place to get a bite to eat?</p>
         </section>
 
         <section>
@@ -49,7 +48,16 @@
             <p>I will use this one font for the entire site.</p>
         </section>
 
+        <section>
+            <h2>Wireframes:</h2>
+            <img src="images/hpMobile.jpg" alt="Home page wireframe in mobile view."><br>
+            <img src="images/hpWideWireframe.jpg" alt="Home page wireframe in wide view.">
+        </section>
+
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Adam Judd | New Mexico</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
   </body>
 </html>
