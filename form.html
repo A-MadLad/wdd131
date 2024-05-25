@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="description" content="Product Review Form.">
+    <meta name="author" content="Adam Judd">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <select id="selectProduct" name="product" required>
+                <option value="" disabled selected>Select a Product</option>
+            </select>
+
+            <div>Overall Rating</div>
+            <label><input type="radio" id="oneStar" name="starReview" required> &star;</label>
+            <label><input type="radio" id="twoStar" name="starReview" required> &star;&star;</label>
+            <label><input type="radio" id="threeStar" name="starReview" required> &star;&star;&star;</label>
+            <label><input type="radio" id="fourStar" name="starReview" required> &star;&star;&star;&star;</label>
+            <label><input type="radio" id="fiveStar" name="starReview" required> &star;&star;&star;&star;&star;</label>
+
+            <div>Date of Installation</div>
+            <input type="date" id="pickDate" name="date" required>
+
+            <div>Which Features did you find useful in the product?</div>
+            <label><input type="checkbox" id="checkDurability" name="durability"> Durability</label>
+            <label><input type="checkbox" id="checkEase" name="ease"> Ease of Use</label>
+            <label><input type="checkbox" id="checkPerformance" name="performance"> Performance</label>
+            <label><input type="checkbox" id="checkDesign" name="design"> Design</label>
+
+            <div>Written Review</div>
+            <textarea id="leaveReview" name="review"></textarea>
+
+            <div>Your Name</div>
+            <input type="text" id="enterName" name="userName">
+
+            <input type="submit" value="Post My Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Adam Judd | New Mexico</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
