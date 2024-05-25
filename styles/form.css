@@ -14,6 +14,7 @@ header {
   margin: 20px;
 }
 
+
 .form1 div {
   margin-top: 30px;
 }
@@ -22,6 +23,11 @@ header {
   display: block;
 }
 
+.form1 input[type="radio"] {
+    margin: 8px;
+}
+
+.form1 #selectProduct, 
 .form1 input[type="date"],
 .form1 input[type="text"] {
   padding: 0.75rem;
