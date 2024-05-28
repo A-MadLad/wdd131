@@ -1,0 +1,57 @@
+/* ALL PAGES */
+
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #9A031E;
+}
+
+img {
+    width: 100%;
+}
+
+/* HOME PAGE */
+
+header {
+    background-color: #9A031E;
+    color: #FFC100;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+#logo {
+    width: 100px;
+    float: left;
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 15px;
+    border-top: 1px solid;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFC100;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #9A031E;
+    color: #FFC100;
+    font-weight: bold;
+}
+
