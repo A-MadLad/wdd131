@@ -2,16 +2,19 @@ body {
   max-width: 800px;
   margin: 0;
   border: 1px solid;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-  background-color: #b0a695;
+  background-color: #DDDDDD;
   text-align: center;
   padding: 20px;
 }
 
 .form1 {
-  margin: 20px;
+  background-color: #EEEEEE;
+  color: black;
+  padding: 20px;
 }
 
 
@@ -52,7 +55,7 @@ header {
 }
 
 footer {
-  background-color: #b0a695;
+  background-color: #DDDDDD;
   text-align: center;
   padding: 20px;
 }
