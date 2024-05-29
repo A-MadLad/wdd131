@@ -29,7 +29,7 @@ const fun = [
   },
   {
     placeName: "White Sands National Park",
-    imageUrl: "./images/ws.jpg",
+    imageUrl: "./images/ws.webp",
     description: "Rising from the heart of the Tularosa Basin is one of the world's great natural wonders - the glistening white sands of New Mexico. Great wave-like dunes of gypsum sand have engulfed 275 square miles of desert, creating the world's largest gypsum dunefield. White Sands National Park preserves a major portion of this unique dunefield, along with the plants and animals that live here."
   },
   {
