@@ -24,7 +24,7 @@ const fun = [
   {
     placeName: "McGinn's PistachioLand",
     imageUrl:
-      "./images/pl.jpg",
+      "./images/pl.webp",
     description: "McGinn's PistachioLand produces many award winning wines, pistachio candies, flavored pistachios and pistashico ice cream."
   },
   {
@@ -35,7 +35,7 @@ const fun = [
   {
     placeName: "Museum of Space History",
     imageUrl:
-      "./images/sh.jpg",
+      "./images/sh.webp",
     description: "The New Mexico museum of space history."
   },
   {
@@ -47,7 +47,7 @@ const fun = [
   {
     placeName: "Toy Train Depot",
     imageUrl:
-      "./images/tt.jpg",
+      "./images/tt.webp",
     description: "The toy train depot is the most unique train museum you'll find anywhere. There is a little something for everyone; young, old, history buffs, train enthusiasts, south west adventurers, and souvenir seekers."
   },
   {
