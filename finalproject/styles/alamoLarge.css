@@ -28,5 +28,9 @@
     .funGrid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    img:hover {
+        max-width: 460px;
+    }
     
 }
