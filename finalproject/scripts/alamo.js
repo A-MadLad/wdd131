@@ -63,7 +63,7 @@ funCard(fun);
 function funCard(fun) {
   fun.forEach(item => {
     let card = document.createElement("section");
-    let name = document.createElement("h3");
+    let name = document.createElement("h2");
     let img = document.createElement("img");
     let p = document.createElement("p");
 

@@ -69,7 +69,7 @@ header {
 	color: white;
 	font-weight: bold;
 	transition: 0.5s;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 40px;
     border-bottom: 2px solid white;
 }
@@ -89,12 +89,13 @@ header {
     display: grid;
 }
 
-h3 {
+h2 {
     color: #9A031E;
 }
 
 p {
     color: #9A031E;
+    font-size: 18px;
 }
 
 section {
