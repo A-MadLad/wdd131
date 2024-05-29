@@ -1,4 +1,12 @@
 @media (min-width: 60em) {
+    #logo {
+        float: left;
+    }
+
+    header h1 {
+        padding: 20px;
+    }
+
     #menu {
         display: none;
     }
@@ -15,6 +23,10 @@
 
     .nav a {
         border-bottom: none;
+    }
+
+    .funGrid {
+        grid-template-columns: repeat(3, 1fr);
     }
     
 }

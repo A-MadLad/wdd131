@@ -9,6 +9,7 @@ body {
 }
 
 img {
+    max-width: 450px;
     width: 100%;
 }
 
@@ -16,17 +17,17 @@ img {
 
 header {
     background-color: #9A031E;
-    color: #FFC100;
-}
-
-header h1 {
-    padding: 20px;
+    color: white;
 }
 
 #logo {
     width: 100px;
-    float: left;
     margin: 20px;
+}
+
+#alamoHome {
+    max-width: 100%;
+    width: 100%;
 }
 
 /* NAVIGATION MENU SMALL VIEW*/
@@ -37,7 +38,7 @@ header h1 {
 	font-weight: 700;
 	text-decoration: none;
 	padding: .5rem .75rem;
-	background-color: #FFC100;
+	background-color: white;
 	color: #9A031E;
     border: 2px solid; 
 }
@@ -53,7 +54,7 @@ header h1 {
 .nav {
 	list-style: none;
 	margin: 0 auto;
-    background-color: #FFC100;
+    background-color: white;
 }
 
 .nav li {
@@ -75,34 +76,38 @@ header h1 {
 
 .nav li a:hover {
     background-color: #9A031E;
-    color: #FFC100;
+    color: white;
 }
 
 .show li {
 	display: block;
 }
 
+/* FUN PAGE */
 
-
-/*.nav {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 15px;
-    border-top: 1px solid;
+.funGrid {
+    display: grid;
 }
 
-.nav li a {
-    text-decoration: none;
-    color: #FFC100;
-    font-size: 18px;
-    font-weight: bold;
-}*/
+h3 {
+    color: white;
+}
 
+p {
+    color: white;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* FOOTER */
 
 footer {
     background-color: #9A031E;
-    color: #FFC100;
+    color: white;
     font-weight: bold;
 }
 
