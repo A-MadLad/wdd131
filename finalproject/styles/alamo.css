@@ -30,6 +30,25 @@ header {
     width: 100%;
 }
 
+.information section {
+    background-color: white;
+}
+
+.information ul {
+    list-style-type: none;
+}
+
+.heading {
+    background-color: #9A031E;
+    color: white;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 17px;
+    color: #9A031E;
+}
 /* NAVIGATION MENU SMALL VIEW*/
 
 #menu {
@@ -109,6 +128,51 @@ section {
     text-decoration: underline;
 }
 
+.funGrid img {
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px grey;
+}
+
+/* UNIQUE SHOPPING PAGE */
+
+.uniqueGrid img {
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+/* NEWSLETTER PAGE */
+.form1 {
+    background-color: #EEEEEE;
+    color: black;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .form1 div {
+    margin-top: 30px;
+  }
+  
+  .form1 label {
+    display: block;
+  }
+   
+  .form1 input[type="email"],
+  .form1 input[type="text"] {
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 6em;
+  }
+  
+  .form1 input[type="submit"] {
+    display: block;
+    margin-top: 30px;
+    border-radius: 6em;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 300px;
+  }
+
 /* FOOTER */
 
 footer {
@@ -116,4 +180,3 @@ footer {
     color: #9A031E;
     font-weight: bold;
 }
-

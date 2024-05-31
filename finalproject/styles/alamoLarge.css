@@ -32,5 +32,22 @@
     img:hover {
         max-width: 460px;
     }
+
+    .uniqueGrid img {
+        max-width: 600px;
+    }
+
+    .information section{
+        position: absolute;
+        display: inline-block;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        width: 100%;
+        max-width: 500px;
+        padding-bottom: 30px;
+    }
     
+    .heading {
+        margin-left: -20px;
+    }
 }
