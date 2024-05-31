@@ -141,11 +141,15 @@ section {
 }
 
 /* NEWSLETTER PAGE */
+
 .form1 {
-    background-color: #EEEEEE;
+    background-color: #CAF4FF;
     color: black;
     padding: 20px;
     text-align: left;
+    margin-left: 10px;
+    max-width: 400px;
+    border: 2px solid black;
   }
   
   .form1 div {
@@ -171,6 +175,9 @@ section {
     padding: 0.75rem;
     width: 100%;
     max-width: 300px;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
   }
 
 /* FOOTER */
