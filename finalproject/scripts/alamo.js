@@ -89,8 +89,3 @@ function funCard(fun) {
     document.querySelector(".funGrid").appendChild(card);
   });
 }
-
-// LOCAL STORAGE
-
-let usersName = document.getElementById("userName").value;
-localStorage.setItem("uname", usersName);
